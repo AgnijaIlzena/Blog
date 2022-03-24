@@ -44,7 +44,8 @@ article img {
 
 /* PAGE */
 
-form input {
+form input,
+form textarea {
     border-top-style: none !important;
     border-left-style: none !important;
     border-right-style: none !important;
