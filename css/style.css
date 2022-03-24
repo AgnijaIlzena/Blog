@@ -42,11 +42,36 @@ article img {
   height: 4px;
 }
 
+/* PAGE */
+
+form input {
+    border-top-style: none !important;
+    border-left-style: none !important;
+    border-right-style: none !important;
+}
+
+article p {
+    text-align: justify;
+    line-height: rem;
+}
+
+section h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+
 @media screen and (min-width: 992px) {
     .carousel-img {
         height: 400px;
         object-fit: cover;
     }
+
+   .page-article a,
+   .date  {
+        text-align: center;
+    }
+
+
 }
 
 
