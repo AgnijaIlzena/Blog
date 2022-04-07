@@ -14,6 +14,7 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
+  <script src="index.js" defer></script>
 </head>
 
 <body>
@@ -64,7 +65,7 @@
           <div class="row  d-flex align-items-center ">
 
             <!-- Arrow left -->
-            <div class="col-lg-3  d-none d-lg-block text-end">
+            <div class="col-lg-3  d-none d-lg-block text-end" id="fleshGauche">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
                 class="bi bi-caret-left text-white" viewBox="0 0 16 16">
                 <path
@@ -73,12 +74,12 @@
             </div>
 
             <!-- Carousel Image -->
-            <div class="col-12 col-lg-6 pt-4 pt-lg-0">
-              <img src="images/wolfs.jpg" alt="random slide" class="w-100 rounded carousel-img">
+            <div class="col-12 col-lg-6 pt-4 pt-lg-0 carousel-container">
+              <img src="images/wolfs.jpg" alt="random slide" class="w-100 rounded carousel-img" id="carouselImg">
             </div>
 
-            <!-- Arrow left -->
-            <div class="col-lg-3 d-none d-lg-block text-start">
+            <!-- Arrow right -->
+            <div class="col-lg-3 d-none d-lg-block text-start" id="fleshDroite">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
                 class="bi bi-caret-right text-white" viewBox="0 0 16 16">
                 <path
