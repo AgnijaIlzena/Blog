@@ -61,7 +61,7 @@ rightArrow.addEventListener("mouseout", startCarousel);
 leftArrow.addEventListener("mouseout", startCarousel);
 
 
-
+  
 
 
 
